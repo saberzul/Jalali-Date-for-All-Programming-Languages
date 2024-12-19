@@ -570,6 +570,10 @@ function jdate_words($array, $mod = '') {
         $key = array('بهار', 'تابستان', 'پاییز', 'زمستان');
         $array[$type] = $key[(int) ($num / 3.1)];
         break;
+      case 'fb':
+        $key = array('بهار', 'تابستان', 'خزان', 'زمستان');
+        $array[$type] = $key[(int) ($num / 3.1)];
+        break;
 
       case 'km':
         $key = array('فر', 'ار', 'خر', 'تی‍', 'مر', 'شه‍', 'مه‍', 'آب‍', 'آذ', 'دی', 'به‍', 'اس‍');
